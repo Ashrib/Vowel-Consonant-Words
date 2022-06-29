@@ -80,7 +80,11 @@
             transition: 0.5s;
             background-color: rgb(245, 82, 82);
         }
-        
+        #alert{
+            margin-bottom: 20px;
+            color: red;
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
@@ -90,6 +94,7 @@
             <input type="text" id="userinput" placeholder="Type here">
             <button onClick="addword()" id="add">Add Word</button>
         </div>
+        <span id="alert"></span>
         <div class="wordboxes">
             <div id="vowelwords"  class="scroll">
                 <h3 class="word-h">Vowel Words</h3>
